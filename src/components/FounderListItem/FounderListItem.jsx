@@ -1,10 +1,10 @@
-const  FounderListItem = (props) => {
+const  FounderListItem = ({name, title, credential}) => {
+    console.log(name)
     return (
-        <>
         <li>
-            <h3>Hello I am {props.name} the {props.title}</h3>
+            <h2>Hello I am {name} the {title}</h2>
+            <p>{credential}</p>
         </li>
-        </>
     )
 }
 
