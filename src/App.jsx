@@ -2,7 +2,7 @@
 
 import './App.css';
 import Navbar from './components/Navbar/Navbar.jsx';
-import founderListItem from './components/FounderListItem/FounderListItem.jsx';
+import FounderListItem from './components/FounderListItem/FounderListItem.jsx';
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
         <h2>The future is firmly in front of us!</h2>
         <p>If you can't explain it to a fifth-grader, our product does it.</p>
       </main>
-      <founderListItem name="Santiago" title="CEO"/>
+      <FounderListItem name="Santiago" title="CEO"/>
     </>
   );
 };

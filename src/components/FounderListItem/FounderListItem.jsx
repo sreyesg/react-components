@@ -1,11 +1,11 @@
-const  founderListItem = (props) => {
+const  FounderListItem = (props) => {
     return (
         <>
         <li>
-            <h3>Hello ${props.name} the ${props.title}</h3>
+            <h3>Hello I am {props.name} the {props.title}</h3>
         </li>
         </>
     )
 }
 
-export default founderListItem
+export default FounderListItem
